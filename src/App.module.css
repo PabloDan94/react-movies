@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+    0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+body{
+  background: linear-gradient(to top, #6f0000, #2f0743);
+}
+
+
+@font-face {
+  font-family: "Monoton";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Monoton"), local("Monoton-Regular"),
+    url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff)
+      format("woff");
+}
+
+.Container{
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  font-size: 7em;
+  letter-spacing: 5px;
+  color: #ff1177;
+  font-family: Monoton;
+}
+
+
+
+
+@media(max-width:677px){
+  .title{
+    font-size: 2.5rem;
+  }
+}
